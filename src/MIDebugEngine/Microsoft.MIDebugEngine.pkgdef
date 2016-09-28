@@ -1,4 +1,4 @@
-﻿[$RootKey$\AD7Metrics\Engine\{EA6637C6-17DF-45B5-A183-0951C54243BC}]
+﻿[$RootKey$\AD7Metrics\Engine\{3352D8EC-AE86-41F2-BB8A-90DA85ABCA05}]
 @="MI Debug Engine"
 ; "AddressBP"=dword:00000001
 "AlwaysLoadLocal"=dword:00000001
@@ -15,10 +15,10 @@
 "Name"="Native (MI-based)"
 "SetNextStatement"=dword:00000001
 ; "SuspendThread"=dword:00000001
-"CLSID"="{0fc2f352-2fc1-4f80-8736-51cd1ab28f16}"
+"CLSID"="{9747077A-2595-4E72-B605-D92F5151D613}"
 "GlobalVisualizersDirectory"="$PackageFolder$"
 
-[$RootKey$\CLSID\{0fc2f352-2fc1-4f80-8736-51cd1ab28f16}]
+[$RootKey$\CLSID\{9747077A-2595-4E72-B605-D92F5151D613}]
 "Assembly"="Microsoft.MIDebugEngine"
 "Class"="Microsoft.MIDebugEngine.AD7Engine"
 "InprocServer32"="$WinDir$\SYSTEM32\MSCOREE.DLL"
@@ -45,7 +45,7 @@
 "Name"="Managed (.NET Core for Unix)"
 ; "SetNextStatement"=dword:00000001
 ; "SuspendThread"=dword:00000001
-"CLSID"="{0fc2f352-2fc1-4f80-8736-51cd1ab28f16}"
+"CLSID"="{9747077A-2595-4E72-B605-D92F5151D613}"
 "RemoteInstallationDirectory"=".vs-debugger"
 "RemoteInstallationSubDirectory"="vs2015u2"
 "ClrDbgVersion"="vs2015u2"
@@ -74,7 +74,7 @@
 "Name"="Native (GDB)"
 "SetNextStatement"=dword:00000001
 ; "SuspendThread"=dword:00000001
-"CLSID"="{0fc2f352-2fc1-4f80-8736-51cd1ab28f16}"
+"CLSID"="{9747077A-2595-4E72-B605-D92F5151D613}"
 "GlobalVisualizersDirectory"="$PackageFolder$"
 
 [$RootKey$\AD7Metrics\Engine\{91744D97-430F-42C1-9779-A5813EBD6AB2}\IncompatibleList]
