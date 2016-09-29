@@ -15,7 +15,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Microsoft.DebugEngineHost</RootNamespace>
-    <AssemblyName>Microsoft.DebugEngineHost</AssemblyName>
+    <AssemblyName>Samsung.DebugEngineHost</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -24,16 +24,13 @@
     <OutputPath>bin\$(Configuration)</OutputPath>
     <DocumentationFile>$(DropRootDir)\ReferenceAssemblies\$(AssemblyName).xml</DocumentationFile>
   </PropertyGroup>
-
   <PropertyGroup Condition="'$(IsCoreClr)' == 'true'">
     <ProjectTypeGuids>$(ProjectTypeGuids);{786C830F-07A1-408B-BD7F-6EE04809D6DB};</ProjectTypeGuids>
     <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
   </PropertyGroup>
-
   <PropertyGroup Condition="'$(IsCoreClr)' == 'false'">
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
-
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
@@ -114,7 +111,7 @@
     <DropSubDir>ReferenceAssemblies</DropSubDir>
   </PropertyGroup>
   <ItemGroup>
-    <DropSignedFile Include="$(OutDir)\Microsoft.DebugEngineHost.dll" />
+    <DropSignedFile Include="$(OutDir)\Samsung.DebugEngineHost.dll" />
   </ItemGroup>
   <Import Condition="'$(IsCoreClr)' == 'true'" Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Condition="'$(IsCoreClr)' == 'false'" Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -162,7 +162,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Microsoft.MIDebugEngine.pkgdef">
+    <Content Include="Samsung.MIDebugEngine.pkgdef">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

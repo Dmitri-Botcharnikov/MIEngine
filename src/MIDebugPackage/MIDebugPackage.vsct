@@ -46,8 +46,8 @@
           <ButtonText>MIDebug Launch</ButtonText>
           <!--NOTE: 'Debug.' (or some other prefix) is required - the command window doesn't like commands which aren't prefixed.
             If we wind up keeping this code, we might want to switch to things like 'MIDebug.launch <foo>'-->
-          <CanonicalName>Debug.MIDebugLaunch</CanonicalName>
-          <LocCanonicalName>Debug.MIDebugLaunch</LocCanonicalName>
+          <CanonicalName>Debug.TizenLaunch</CanonicalName>
+          <LocCanonicalName>Debug.TizenLaunch</LocCanonicalName>
         </Strings>
       </Button>
       <Button guid="guidMIDebugPackageCmdSet" id="cmdidMIDebugExec" priority="0x0100" type="Button">
@@ -56,8 +56,8 @@
           <ButtonText>MIDebug Execute Command</ButtonText>
           <!--NOTE: 'Debug.' (or some other prefix) is required - the command window doesn't like commands which aren't prefixed.
             If we wind up keeping this code, we might want to switch to things like 'MIDebug.launch <foo>'-->
-          <CanonicalName>Debug.MIDebugExec</CanonicalName>
-          <LocCanonicalName>Debug.MIDebugExec</LocCanonicalName>
+          <CanonicalName>Debug.TizenExec</CanonicalName>
+          <LocCanonicalName>Debug.TizenExec</LocCanonicalName>
         </Strings>
       </Button>
     </Buttons>

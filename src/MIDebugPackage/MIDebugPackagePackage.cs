@@ -150,7 +150,7 @@ namespace Microsoft.MIDebugPackage
             if (hr == VSConstants.S_OK || parseCommandLine.HasSwitches() != VSConstants.S_OK)
             {
                 string message = string.Concat("Unexpected syntax for MIDebugLaunch command. Expected:\n",
-                    "Debug.MIDebugLaunch /Executable:<path_or_logical_name> /OptionsFile:<path>");
+                    "Debug.TizenLaunch /Executable:<path_or_logical_name> /OptionsFile:<path>");
                 throw new ApplicationException(message);
             }
 
@@ -216,7 +216,7 @@ namespace Microsoft.MIDebugPackage
                 return hr;
 
             if (string.IsNullOrWhiteSpace(arguments))
-                throw new ArgumentException("Expected an MI command to execute (ex: Debug.MIDebugExec info sharedlibrary)");
+                throw new ArgumentException("Expected an MI command to execute (ex: Debug.TizenExec info sharedlibrary)");
 
             MIDebugExecAsync(arguments);
 

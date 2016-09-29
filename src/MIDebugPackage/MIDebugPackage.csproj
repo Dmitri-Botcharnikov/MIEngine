@@ -84,7 +84,7 @@
     <!-- Because the MIEngine ships in Visual Studio, it is recommended NOT to install the .vsix
          Instead, The Visual Studio files should be directly updated.
          The VSIX is built because it is useful for F5 from VS targeting the experimental instance. -->
-    <TargetVsixContainerName>$(AssemblyName).DoNotInstall.vsix</TargetVsixContainerName>
+    <TargetVsixContainerName>$(AssemblyName).vsix</TargetVsixContainerName>
   </PropertyGroup>
   <PropertyGroup>
     <StartAction>Program</StartAction>
@@ -198,17 +198,17 @@
     <DropUnsignedFile Include="$(OutDir)\Microsoft.IOSDebugLauncher.pkgdef" />
     <DropSignedFile Include="$(OutDir)\Microsoft.JDbg.dll" />
     <DropUnsignedFile Include="$(OutDir)\Microsoft.JDbg.pdb" />
-    <DropSignedFile Include="$(OutDir)\Microsoft.MICore.dll" />
-    <DropUnsignedFile Include="$(OutDir)\Microsoft.MICore.pdb" />
-    <DropSignedFile Include="$(OutDir)\Microsoft.MICore.XmlSerializers.dll" />
-    <DropSignedFile Include="$(OutDir)\Microsoft.MIDebugEngine.dll" />
-    <DropUnsignedFile Include="$(OutDir)\Microsoft.MIDebugEngine.pdb" />
-    <DropUnsignedFile Include="$(OutDir)\Microsoft.MIDebugEngine.pkgdef" />
-    <DropSignedFile Include="$(OutDir)\Microsoft.MIDebugPackage.dll" />
-    <DropUnsignedFile Include="$(OutDir)\Microsoft.MIDebugPackage.pdb" />
-    <DropUnsignedFile Include="$(OutDir)\Microsoft.MIDebugPackage.pkgdef" />
-    <DropSignedFile Include="$(OutDir)\Microsoft.DebugEngineHost.dll" />
-    <DropUnsignedFile Include="$(OutDir)\Microsoft.DebugEngineHost.pdb" />
+    <DropSignedFile Include="$(OutDir)\Samsung.MICore.dll" />
+    <DropUnsignedFile Include="$(OutDir)\Samsung.MICore.pdb" />
+    <DropSignedFile Include="$(OutDir)\Samsung.MICore.XmlSerializers.dll" />
+    <DropSignedFile Include="$(OutDir)\Samsung.MIDebugEngine.dll" />
+    <DropUnsignedFile Include="$(OutDir)\Samsung.MIDebugEngine.pdb" />
+    <DropUnsignedFile Include="$(OutDir)\Samsung.MIDebugEngine.pkgdef" />
+    <DropSignedFile Include="$(OutDir)\Samsung.MIDebugPackage.dll" />
+    <DropUnsignedFile Include="$(OutDir)\Samsung.MIDebugPackage.pdb" />
+    <DropUnsignedFile Include="$(OutDir)\Samsung.MIDebugPackage.pkgdef" />
+    <DropSignedFile Include="$(OutDir)\Samsung.DebugEngineHost.dll" />
+    <DropUnsignedFile Include="$(OutDir)\Samsung.DebugEngineHost.pdb" />
     <DropUnsignedFile Include="$(OutDir)\osxlaunchhelper.scpt" />
     <DropUnsignedFile Include="@(RequiredNetFX46FacadeAssemblies)" />
   </ItemGroup>
