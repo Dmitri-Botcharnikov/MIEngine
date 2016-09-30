@@ -22,7 +22,7 @@
 "Assembly"="Microsoft.MIDebugEngine"
 "Class"="Microsoft.MIDebugEngine.AD7Engine"
 "InprocServer32"="$WinDir$\SYSTEM32\MSCOREE.DLL"
-"CodeBase"="$PackageFolder$\Microsoft.MIDebugEngine.dll"
+"CodeBase"="$PackageFolder$\Samsung.MIDebugEngine.dll"
 
 ;******************************************************************************
 ; SSH registration
