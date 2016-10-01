@@ -43,21 +43,21 @@
       <Button guid="guidMIDebugPackageCmdSet" id="cmdidLaunchMIDebug" priority="0x0100" type="Button">
         <CommandFlag>AllowParams</CommandFlag>
         <Strings>
-          <ButtonText>MIDebug Launch</ButtonText>
+          <ButtonText>Samsung Debug Launch</ButtonText>
           <!--NOTE: 'Debug.' (or some other prefix) is required - the command window doesn't like commands which aren't prefixed.
             If we wind up keeping this code, we might want to switch to things like 'MIDebug.launch <foo>'-->
-          <CanonicalName>Debug.TizenLaunch</CanonicalName>
-          <LocCanonicalName>Debug.TizenLaunch</LocCanonicalName>
+          <CanonicalName>Debug.SamsungDebugLaunch</CanonicalName>
+          <LocCanonicalName>Debug.SamsungDebugLaunch</LocCanonicalName>
         </Strings>
       </Button>
       <Button guid="guidMIDebugPackageCmdSet" id="cmdidMIDebugExec" priority="0x0100" type="Button">
         <CommandFlag>AllowParams</CommandFlag>
         <Strings>
-          <ButtonText>MIDebug Execute Command</ButtonText>
+          <ButtonText>Samsung Debug Execute Command</ButtonText>
           <!--NOTE: 'Debug.' (or some other prefix) is required - the command window doesn't like commands which aren't prefixed.
             If we wind up keeping this code, we might want to switch to things like 'MIDebug.launch <foo>'-->
-          <CanonicalName>Debug.TizenExec</CanonicalName>
-          <LocCanonicalName>Debug.TizenExec</LocCanonicalName>
+          <CanonicalName>Debug.SamsungDebugExec</CanonicalName>
+          <LocCanonicalName>Debug.SamsungDebugExec</LocCanonicalName>
         </Strings>
       </Button>
     </Buttons>

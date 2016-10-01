@@ -1,5 +1,5 @@
 ﻿[$RootKey$\AD7Metrics\Engine\{3352D8EC-AE86-41F2-BB8A-90DA85ABCA05}]
-@="MI Debug Engine"
+@="Samsung MI Debug Engine"
 ; "AddressBP"=dword:00000001
 "AlwaysLoadLocal"=dword:00000001
 "AlwaysLoadProgramProviderLocal"=dword:00000001
@@ -28,54 +28,54 @@
 ; SSH registration
 
 ; Registration to use clrdbg with the SSH port supplier
-[$RootKey$\AD7Metrics\Engine\{6B320935-1391-433A-A8B6-898D0F03164A}]
-@="MI Debug Engine - clrdbg+SSH"
-"PortSupplier"="{3FDDF14E-E758-4695-BE0C-7509920432C9}"
-"Attach"=dword:00000001
+;[$RootKey$\AD7Metrics\Engine\{6B320935-1391-433A-A8B6-898D0F03164A}]
+;@="MI Debug Engine - clrdbg+SSH"
+;"PortSupplier"="{3FDDF14E-E758-4695-BE0C-7509920432C9}"
+;"Attach"=dword:00000001
 ; "AddressBP"=dword:00000001
-"AlwaysLoadLocal"=dword:00000001
+;"AlwaysLoadLocal"=dword:00000001
 ; "CallStackBP"=dword:00000001
 ; "ConditionalBP"=dword:00000001
 ; "Disassembly"=dword:00000001
-"EnginePriority"=dword:00000050
-"Exceptions"=dword:00000001
+;"EnginePriority"=dword:00000050
+;"Exceptions"=dword:00000001
 ; "FunctionBP"=dword:00000001
 ; "HitCountBP"=dword:00000001
 ; "JustMyCodeStepping"=dword:00000001
-"Name"="Managed (.NET Core for Unix)"
+;"Name"="Managed (.NET Core for Unix)"
 ; "SetNextStatement"=dword:00000001
 ; "SuspendThread"=dword:00000001
-"CLSID"="{9747077A-2595-4E72-B605-D92F5151D613}"
-"RemoteInstallationDirectory"=".vs-debugger"
-"RemoteInstallationSubDirectory"="vs2015u2"
-"ClrDbgVersion"="vs2015u2"
+;"CLSID"="{9747077A-2595-4E72-B605-D92F5151D613}"
+;"RemoteInstallationDirectory"=".vs-debugger"
+;"RemoteInstallationSubDirectory"="vs2015u2"
+;"ClrDbgVersion"="vs2015u2"
 ; Following is a placeholder, needs to be fixed.
-"GetClrDbgUrl"="https://aka.ms/getclrdbgsh"
+;"GetClrDbgUrl"="https://aka.ms/getclrdbgsh"
 
-[$RootKey$\AD7Metrics\Engine\{6B320935-1391-433A-A8B6-898D0F03164A}\IncompatibleList]
-"gdb"="{91744D97-430F-42C1-9779-A5813EBD6AB2}"
+;[$RootKey$\AD7Metrics\Engine\{6B320935-1391-433A-A8B6-898D0F03164A}\IncompatibleList]
+;"gdb"="{91744D97-430F-42C1-9779-A5813EBD6AB2}"
 
 ; Registration to use gdb with the SSH port supplier
-[$RootKey$\AD7Metrics\Engine\{91744D97-430F-42C1-9779-A5813EBD6AB2}]
-@="MI Debug Engine - gdb+SSH"
-"PortSupplier"="{3FDDF14E-E758-4695-BE0C-7509920432C9}"
-"Attach"=dword:00000001
+;[$RootKey$\AD7Metrics\Engine\{91744D97-430F-42C1-9779-A5813EBD6AB2}]
+;@="MI Debug Engine - gdb+SSH"
+;"PortSupplier"="{3FDDF14E-E758-4695-BE0C-7509920432C9}"
+;"Attach"=dword:00000001
 ; "AddressBP"=dword:00000001
-"AlwaysLoadLocal"=dword:00000001
+;"AlwaysLoadLocal"=dword:00000001
 ; "CallStackBP"=dword:00000001
 ; "ConditionalBP"=dword:00000001
-"DataBP"=dword:00000001
-"Disassembly"=dword:00000001
-"EnginePriority"=dword:00000050
-"Exceptions"=dword:00000001
+;"DataBP"=dword:00000001
+;"Disassembly"=dword:00000001
+;"EnginePriority"=dword:00000050
+;"Exceptions"=dword:00000001
 ; "FunctionBP"=dword:00000001
 ; "HitCountBP"=dword:00000001
 ; "JustMyCodeStepping"=dword:00000001
-"Name"="Native (GDB)"
-"SetNextStatement"=dword:00000001
+;"Name"="Native (GDB)"
+;"SetNextStatement"=dword:00000001
 ; "SuspendThread"=dword:00000001
-"CLSID"="{9747077A-2595-4E72-B605-D92F5151D613}"
-"GlobalVisualizersDirectory"="$PackageFolder$"
+;"CLSID"="{9747077A-2595-4E72-B605-D92F5151D613}"
+;"GlobalVisualizersDirectory"="$PackageFolder$"
 
-[$RootKey$\AD7Metrics\Engine\{91744D97-430F-42C1-9779-A5813EBD6AB2}\IncompatibleList]
-"clrdbg"="{6B320935-1391-433A-A8B6-898D0F03164A}"
+;[$RootKey$\AD7Metrics\Engine\{91744D97-430F-42C1-9779-A5813EBD6AB2}\IncompatibleList]
+;"clrdbg"="{6B320935-1391-433A-A8B6-898D0F03164A}"
